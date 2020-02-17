@@ -16,19 +16,15 @@
 - 命令必须是绝对完整路径,而非 tar -zxvf backup.tar.gz /home/wwwroot
 
 3. 范围
+
 |字段|说明|
 |-|-|
+|content1|content2
 |分|0~59整数|
 |时|0~23整数|
 |日|1~31整数|
 |月|1~12整数|
 |星期|0~7整数,0与7都指周日|
-
-
-|column1|column2|column3|
-|-|-|-|
-|content1|content2|content3|
-
 
 ### 一次性任务 at
 1. 命令 at 时间 进入编辑模式
